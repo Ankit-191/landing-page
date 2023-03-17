@@ -1,0 +1,36 @@
+.lh_130 {
+    line-height: 130px;
+}
+
+.lh_50 {
+    line-height: 50px;
+}
+
+.lh_120 {
+    line-height: 120px;
+}
+
+.vido_circle {
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(4px);
+    border-radius: 100px;
+}
+
+.top-15 {
+    top: 105px;
+}
+
+.bg_img_contactus {
+    background-image: url(/assets/image/png/Contact\ Us.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.a{
+    border: none;
+    outline: none;
+    
+}
+
