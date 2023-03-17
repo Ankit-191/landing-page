@@ -1,14 +1,8 @@
-.lh_130 {
+/* .lh_130 {
     line-height: 130px;
-}
+} */
 
-.lh_50 {
-    line-height: 50px;
-}
 
-.lh_120 {
-    line-height: 120px;
-}
 
 .vido_circle {
     width: 120px;
@@ -28,9 +22,12 @@
     background-size: cover;
 }
 
-.a{
+.border_none {
     border: none;
     outline: none;
-    
+}
+
+.tranform{
+    transform: translate(-50%, -50%);
 }
 

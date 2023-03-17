@@ -61,7 +61,8 @@
     --color-green: #00DDA880;
     --color-red: #CF292999;
     --color-blue: #0058DD99;
-
+    --color-gray: #BDBDBD;
+    --color-lightgray: #F2F2F2;
 
 }
 
@@ -88,6 +89,14 @@
 
 .color_blue {
     background-color: var(--color-blue) !important;
+}
+
+.color_gray {
+    color: var(--color-gray);
+}
+
+.color_lightgray {
+    color: var(--color-lightgray);
 }
 
 /* font sizes  */
@@ -172,21 +181,60 @@
     }
 }
 
+@media (max-width:1200px) {
+    :root {
+        /* font size  */
+        --fs-9xl: 247px;
+        --fs-8xl: 80px;
+        --fs-7xl: 120px;
+        --fs-6xl: 90px;
+        --fs-5xl: 80px;
+        --fs-4xl: 56px;
+        --fs-3xl: 30px;
+        --fs-2xl: 32px;
+        --fs-xl: 30px;
+        --fs-lg: 24px;
+        --fs-md: 20px;
+        --fs-sm: 16px;
+        --fs-xsm: 15px;
+    }
+}
+
 @media (max-width:992px) {
     :root {
         /* font size  */
         --fs-9xl: 247px;
-        --fs-8xl: 130px;
+        --fs-8xl: 60px;
         --fs-7xl: 120px;
         --fs-6xl: 110px;
         --fs-5xl: 100px;
         --fs-4xl: 56px;
         --fs-3xl: 35px;
-        --fs-2xl: 32px;
+        --fs-2xl: 22px;
         --fs-xl: 30px;
         --fs-lg: 24px;
         --fs-md: 20px;
         --fs-sm: 17px;
         --fs-xsm: 15px;
     }
+}
+
+@media (max-width:576px) {
+    :root {
+        /* font size  */
+        --fs-9xl: 247px;
+        --fs-8xl: 40px;
+        --fs-7xl: 120px;
+        --fs-6xl: 60px;
+        --fs-5xl: 50px;
+        --fs-4xl: 56px;
+        --fs-3xl: 14px;
+        --fs-2xl: 32px;
+        --fs-xl: 20px;
+        --fs-lg: 24px;
+        --fs-md: 20px;
+        --fs-sm: 14px;
+        --fs-xsm: 15px;
+    }
+
 }

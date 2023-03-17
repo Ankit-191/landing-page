@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!-- <section class="bg-dark">
+    <section class="bg-dark position-relative">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-12 col-md-8 p-2">
@@ -25,45 +25,45 @@
                         your car's potential.</p>
                 </div>
             </div>
-            <div class="position-absolute start-0 top-15 ">
+            <div class="position-absolute start-0 top-15 d-lg-block d-none">
                 <img src="./assets/image/png/Star-1.png" alt="">
             </div>
             <div class="position-relative pb-5">
                 <img src="./assets/image/png/car_.png" alt="car" class="w-100">
             </div>
-            <div class="position-absolute end-0 bottom-0 ">
+            <div class="position-absolute end-0 bottom-0 d-lg-block d-none">
                 <img src="./assets/image/png/Star-blue.png" alt="">
             </div>
         </div>
-    </section> -->
-    <section class="bg_img_contactus">
+    </section>
+    <section class="bg_img_contactus pt-5 pb-5">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-12">
-                    <p class="fs_7xl ff_American_Captain fw_400 color_white lh_120">Contact us</p>
-                    <p class="ff_SF_Pro_Display fst-normal fw_400 fs_xl color_white lh_50">To find out more information
+                <div class="col-12 col-lg-6">
+                    <p class="fs_6xl ff_American_Captain fw_400 color_white">Contact us</p>
+                    <p class="ff_SF_Pro_Display fst-normal fw_400 fs_xl color_white ">To find out more information
                         about cars and
                         quotes, fill out the form on the side or contact us
                         by phone.</p>
                 </div>
-                <div class="col-12">
+                <div class="col-12 col-lg-6">
                     <form action="">
                         <div class="row">
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <input type="text" placeholder="Your Name"
-                                    class="a mt-5 p-2 color_white w-100 bg_black border-bottom">
+                                    class="border_none mt-5 p-2 color_white w-100 bg_black border-bottom">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <input type="text" placeholder="Your Email"
-                                    class="a mt-5 p-2 color_white w-100 bg_black border-bottom">
+                                    class="border_none mt-5 p-2 color_white w-100 bg_black border-bottom">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <input type="text" placeholder="Phone Number"
-                                    class="a mt-5 p-2 color_white w-100 bg_black border-bottom">
+                                    class="border_none mt-5 p-2 color_white w-100 bg_black border-bottom">
                             </div>
-                            <div class="col-6">
+                            <div class="col-12 col-lg-6">
                                 <select id="Country" name="countrylist" form="countryform"
-                                    class="a mt-5 p-2 color_white w-100 bg_black border-bottom">
+                                    class="border_none mt-5 p-2 color_lightgray w-100 bg_black border-bottom">
                                     <option value="Country">Country </option>
                                     <option value="India">India</option>
                                     <option value="Canada">Canada</option>
@@ -72,14 +72,114 @@
                                 </select>
                             </div>
                             <div class="col-12">
-                                <input type="text" placeholder="Message" class="a mt-5 p-2 color_white w-100 bg_black border-bottom ">
+                                <input type="text" placeholder="Message"
+                                    class="border_none mt-5 p-2 color_white w-100 bg_black border-bottom ">
                             </div>
                             <div class="col-12">
-                                <button type="button" class="btn btn_submit mt-5 bg__lightblack px-3 color_white border-white px-4 ">Submit</button>
+                                <button type="button"
+                                    class="btn btn_submit mt-5 bg__lightblack px-3 color_white border-white px-4 ">Submit</button>
                             </div>
                         </div>
                     </form>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section class="position-relative">
+        <div class="position-absolute start-50 top-50 tranform">
+            <a href="https://maps.google.com/">
+                <svg width="76" height="107" viewBox="0 0 76 107" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M32.0642 0.403625C23.655 1.86569 16.9645 5.37464 11.0923 11.3691C4.25857 18.3243 0.575709 26.9505 0.0437398 37.1641C-0.365467 44.8713 2.08978 53.8943 7.69592 65.2357C12.5041 74.948 18.6422 84.5558 26.9696 95.4378C31.3481 101.161 35.2356 105.839 36.1358 106.445C37.0975 107.113 38.898 107.113 39.8596 106.445C41.2509 105.505 49.8238 94.6858 54.6729 87.8141C65.6192 72.2327 72.9645 57.4868 75.1128 46.7093C75.8699 42.9288 76.1154 40.1509 75.9517 37.1641C75.4197 26.9505 71.7369 18.3243 64.9031 11.3691C58.9287 5.24932 51.9517 1.67771 43.3992 0.320084C40.5348 -0.13942 34.9082 -0.0976562 32.0642 0.403625ZM43.2151 20.1206C47.3072 21.3738 50.6013 23.7131 53.1384 27.1803C57.4351 33.0285 58.1307 40.5059 54.9798 47.1061C53.0975 51.0537 50.1103 54.124 46.2842 56.0665C43.788 57.3406 41.7215 57.8627 38.7138 57.988C36.7701 58.0716 35.8494 58.0089 34.3148 57.6747C23.4299 55.3772 16.6985 44.0776 19.8085 33.3209C21.8136 26.4075 27.1946 21.3738 34.3353 19.7238C36.4837 19.2225 40.9235 19.4313 43.2151 20.1206Z"
+                        fill="#0058DD" />
+                </svg>
+            </a>
+        </div>
+        <div class="w-100">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13935.491626830728!2d75.7255078!3d29.16841725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1679031485501!5m2!1sen!2sin"
+                width="100%" height="377" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="bg-black pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <p class="ff_american fst-normal fw_400 fs_5xl"><a href="" class="color_white">Prime Car</a></p>
+                </div>
+                <div class="col-6 col-lg-2 col-sm-6">
+                    <p class="ff_sf_pro fst-normal fw_500 fs_3xl"><a href="" class="color_white">Where are we</a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Georgia </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Texas </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> California </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Virginia </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Colorado </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Pennsylvania </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Massachusetts </a></p>
+                </div>
+                <div class="col-6 col-lg-2 col-sm-6">
+                    <p class="ff_sf_pro fst-normal fw_500 fs_3xl"><a href="" class="color_white">Quick links</a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> About Us </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Our Services </a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> Contact Us </a></p>
+                </div>
+                <div class="col-6 col-lg-2 col-sm-6">
+                    <p class="ff_sf_pro fst-normal fw_500 fs_3xl"><a href="" class="color_white">Email Us</a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray">
+                            contact@primecar.com</a></p>
+                </div>
+                <div class="col-6 col-lg-2 col-sm-6">
+                    <p class="ff_sf_pro fst-normal fw_500 fs_3xl"><a href="" class="color_white">Call Us</a></p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> +999-9-999-9999 </a>
+                    </p>
+                    <p class="ff_sf_pro fst-normal fw_400 fs_sm "><a href="" class="color_gray"> +111-11-111-1111 </a>
+                    </p>
+                    <div>
+                        <a href="">
+                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M4 16C4 21.9333 8.33333 26.8667 14 27.8667L14.0669 27.8132C14.0446 27.8088 14.0223 27.8045 14 27.8V19.3333H11V16H14V13.3333C14 10.3333 15.9333 8.66667 18.6667 8.66667C19.5333 8.66667 20.4667 8.8 21.3333 8.93333V12H19.8C18.3333 12 18 12.7333 18 13.6667V16H21.2L20.6667 19.3333H18V27.8C17.9777 27.8045 17.9554 27.8088 17.9331 27.8132L18 27.8667C23.6667 26.8667 28 21.9333 28 16C28 9.4 22.6 4 16 4C9.4 4 4 9.4 4 16Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="" class="ms-3">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M2.27557 0.666748C1.38701 0.666748 0.666687 1.38707 0.666687 2.27563V21.7245C0.666687 22.613 1.38701 23.3334 2.27557 23.3334H21.7245C22.613 23.3334 23.3334 22.613 23.3334 21.7245V2.27563C23.3334 1.38707 22.613 0.666748 21.7245 0.666748H2.27557ZM5.75431 7.70589C6.84029 7.70589 7.72064 6.82554 7.72064 5.73956C7.72064 4.65359 6.84029 3.77323 5.75431 3.77323C4.66834 3.77323 3.78798 4.65359 3.78798 5.73956C3.78798 6.82554 4.66834 7.70589 5.75431 7.70589ZM9.52146 9.15906H12.7803V10.652C12.7803 10.652 13.6646 8.88329 16.0708 8.88329C18.2172 8.88329 19.9952 9.94065 19.9952 13.1636V19.9598H16.6181V13.9871C16.6181 12.0859 15.6031 11.8768 14.8296 11.8768C13.2245 11.8768 12.9497 13.2613 12.9497 14.2351V19.9598H9.52146V9.15906ZM7.46841 9.15908H4.04021V19.9598H7.46841V9.15908Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                        <a href="" class="ms-3">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M12.0005 0.363525C8.84036 0.363525 8.44377 0.377344 7.20259 0.433829C5.96384 0.490556 5.11829 0.686677 4.37843 0.974435C3.61312 1.27165 2.96393 1.66922 2.31716 2.31625C1.66991 2.96304 1.27235 3.61225 0.974173 4.37734C0.685697 5.11746 0.48934 5.96328 0.433584 7.20159C0.37807 8.4428 0.363525 8.83965 0.363525 11.9999C0.363525 15.1601 0.377586 15.5555 0.433827 16.7967C0.490794 18.0355 0.68691 18.8811 0.974416 19.621C1.27186 20.3863 1.66943 21.0355 2.31644 21.6823C2.96296 22.3296 3.61215 22.7281 4.37698 23.0253C5.11732 23.3131 5.96311 23.5092 7.20162 23.5659C8.4428 23.6224 8.83915 23.6363 11.9991 23.6363C15.1594 23.6363 15.5548 23.6224 16.796 23.5659C18.0347 23.5092 18.8813 23.3131 19.6216 23.0253C20.3867 22.7281 21.0349 22.3296 21.6814 21.6823C22.3287 21.0355 22.7262 20.3863 23.0244 19.6212C23.3105 18.8811 23.5068 18.0353 23.565 16.797C23.6208 15.5558 23.6353 15.1601 23.6353 11.9999C23.6353 8.83965 23.6208 8.44304 23.565 7.20183C23.5068 5.96304 23.3105 5.11746 23.0244 4.37759C22.7262 3.61225 22.3287 2.96304 21.6814 2.31625C21.0342 1.66898 20.3869 1.2714 19.6209 0.974435C18.8791 0.686677 18.0331 0.490556 16.7943 0.433829C15.5531 0.377344 15.158 0.363525 11.9969 0.363525H12.0005ZM10.9567 2.46049C11.2665 2.46001 11.6122 2.46049 12.0005 2.46049C15.1073 2.46049 15.4756 2.47165 16.7024 2.5274C17.8369 2.57928 18.4527 2.76886 18.8628 2.92813C19.4059 3.13904 19.793 3.39116 20.2 3.79843C20.6073 4.20571 20.8594 4.59359 21.0708 5.13662C21.23 5.54631 21.4199 6.16207 21.4715 7.29662C21.5272 8.52328 21.5394 8.89177 21.5394 11.9972C21.5394 15.1027 21.5272 15.4712 21.4715 16.6978C21.4196 17.8324 21.23 18.4481 21.0708 18.8578C20.8599 19.4009 20.6073 19.7875 20.2 20.1946C19.7928 20.6018 19.4061 20.8539 18.8628 21.0649C18.4532 21.2249 17.8369 21.4139 16.7024 21.4658C15.4758 21.5216 15.1073 21.5337 12.0005 21.5337C8.89345 21.5337 8.52522 21.5216 7.29859 21.4658C6.16408 21.4135 5.54834 21.2239 5.13793 21.0646C4.59491 20.8537 4.20705 20.6016 3.79978 20.1943C3.39252 19.787 3.14041 19.4001 2.92902 18.8569C2.76976 18.4472 2.57994 17.8314 2.52831 16.6969C2.47255 15.4702 2.4614 15.1017 2.4614 11.9943C2.4614 8.88692 2.47255 8.52037 2.52831 7.29371C2.58019 6.15916 2.76976 5.5434 2.92902 5.13322C3.13993 4.59019 3.39252 4.20231 3.79978 3.79504C4.20705 3.38777 4.59491 3.13565 5.13793 2.92425C5.5481 2.76425 6.16408 2.57516 7.29859 2.52304C8.37201 2.47456 8.788 2.46001 10.9567 2.45759V2.46049ZM18.2117 4.39262C17.4408 4.39262 16.8154 5.01734 16.8154 5.78849C16.8154 6.5594 17.4408 7.18486 18.2117 7.18486C18.9826 7.18486 19.608 6.5594 19.608 5.78849C19.608 5.01759 18.9826 4.39213 18.2117 4.39213V4.39262ZM12.0005 6.02413C8.70048 6.02413 6.02493 8.69977 6.02493 11.9999C6.02493 15.3 8.70048 17.9744 12.0005 17.9744C15.3005 17.9744 17.9751 15.3 17.9751 11.9999C17.9751 8.69977 15.3003 6.02413 12.0003 6.02413H12.0005ZM12.0005 8.1211C14.1425 8.1211 15.8792 9.85759 15.8792 11.9999C15.8792 14.1419 14.1425 15.8787 12.0005 15.8787C9.85827 15.8787 8.12184 14.1419 8.12184 11.9999C8.12184 9.85759 9.85827 8.1211 12.0005 8.1211Z"
+                                    fill="white" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="d-flex">
+                        <p class="ff_Helvetica fst-normal fw_400 fs_xsm"><a href="" class="color_white">Privacy
+                                policy</a>
+                        </p>
+                        <p class="ff_Helvetica fst-normal fw_400 fs_xsm ms-5"><a href="" class="color_white">Term and
+                                conditions</a></p>
+                    </div>
+                </div>
+                <p class="ff_Helvetica fst-normal fw_400 fs_xsm col-md-6 text-md-end"><a href="" class="color_white"> Copyright © 2022
+                        Prime
+                        Car. All Rights Reserved</a></p>
             </div>
         </div>
     </section>
