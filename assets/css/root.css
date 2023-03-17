@@ -185,7 +185,7 @@
     :root {
         /* font size  */
         --fs-9xl: 247px;
-        --fs-8xl: 80px;
+        --fs-8xl: 130px;
         --fs-7xl: 120px;
         --fs-6xl: 90px;
         --fs-5xl: 80px;
@@ -204,7 +204,7 @@
     :root {
         /* font size  */
         --fs-9xl: 247px;
-        --fs-8xl: 60px;
+        --fs-8xl: 90px;
         --fs-7xl: 120px;
         --fs-6xl: 110px;
         --fs-5xl: 100px;
@@ -223,7 +223,7 @@
     :root {
         /* font size  */
         --fs-9xl: 247px;
-        --fs-8xl: 40px;
+        --fs-8xl: 50px;
         --fs-7xl: 120px;
         --fs-6xl: 60px;
         --fs-5xl: 50px;
