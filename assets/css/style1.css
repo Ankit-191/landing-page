@@ -22,7 +22,7 @@
     padding: 4px 35px;
 }
 
-.btn_hover:hover {
+.btn_hover:hover     {
     border: 2px solid skyblue;
     color: skyblue !important;
 }
